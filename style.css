@@ -1,0 +1,45 @@
+@charset "UTF-8";
+*{margin: 0; padding: 0;}
+.약:after{content:""; clear:both; display: block; }
+
+/* 비디오 */
+.비디오전체{ width: 80%; margin: auto;}
+.비디오전체 video{width: 100%;}
+
+.main{background-color: #8758FF;
+ width: 80%;margin:auto;
+ padding: 2%;
+ padding-top:5%;
+ box-sizing: border-box;
+}
+.main .첫째{background-color: #abd9ff; margin-top: 30px;}
+.main .첫째 .첫째손{float:left;height: 200px; 
+    width: 49%;}
+.main .첫째 .자식1{background-color: #967E76;
+margin-right: 2%;}
+.main .첫째 .자식2{background-color: #F07DEA;}
+
+.main .둘째{background-color: #abd9ff;margin-top: 30px;}
+.main .둘째 .둘째손{float:left; height: 200px; width: 33.3333%;}
+/* .main .둘째 .둘째손.둘자식1{} */
+.main .둘째 .둘자식1{background-color: blue;}
+.main .둘째 .둘자식2{background-color: cornflowerblue;}
+.main .둘째 .둘자식3{background-color: coral;}
+.main .둘째 .막내{clear:both}
+
+.main .셋째{background-color: darkslategrey;
+ margin-top: 30px;
+}
+.main .셋째 iframe{width: 100%;}
+
+.main .넷째{background-color: #F07DEA;
+margin-top: 30px;
+}
+.main .넷째 .넷째손{width: 23.5%; height: 200px;
+float: left; margin-right: 2%;}
+.main .넷째 .넷자손1{background-color: darkgoldenrod;}
+.main .넷째 .넷자손2{background-color: darkcyan;}
+.main .넷째 .넷자손3{background-color: darkviolet;}
+.main .넷째 .넷자손4{background-color: firebrick;
+margin-right: 0;
+}

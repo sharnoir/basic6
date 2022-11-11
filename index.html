@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    
+   <div class="main">
+    <div class="첫째 약">
+       <div 
+       data-aos="fade-down-left" 
+       data-aos-delay="200"
+       class="첫째손 자식1">자식1</div>
+       <div 
+       data-aos="fade-down" 
+       data-aos-delay="400"
+       class="첫째손 자식2">자식2</div>
+    </div><!-- 첫째 -->
+    <div class="둘째">
+       <div 
+       data-aos="zoom-out"
+       data-aos-delay="400"
+       class="둘째손 둘자식1">둘자식1</div>
+       <div 
+       data-aos="zoom-out"
+       data-aos-delay="600"
+       class="둘째손 둘자식2">둘자식2</div>
+       <div 
+       data-aos="zoom-out"
+       data-aos-delay="800"
+       class="둘째손 둘자식3">둘자식3</div>
+       <div class="막내"></div>
+    </div><!-- 둘째 -->
+    <div class="셋째">
+        <div class="셋째손">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/aKGlXGTpsD0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div><!-- 셋째 -->
+    <div class="넷째 약">
+        <div 
+        data-aos="flip-left"
+        data-aos-delay="200"
+        class="넷째손 넷자손1">넷자손1</div>
+        <div 
+        data-aos="flip-left"
+        data-aos-delay="400"
+        class="넷째손 넷자손2">넷자손2</div>
+        <div 
+        data-aos="flip-left"
+        data-aos-delay="600"
+        class="넷째손 넷자손3">넷자손3</div>
+        <div 
+        data-aos="flip-left"
+        data-aos-delay="800"
+        class="넷째손 넷자손4">넷자손4</div>
+    </div><!-- 넷째 -->
+   </div> <!-- main -->
+
+
+   <div class="비디오전체">
+    <div class="비디오" data-aos="fade-down-left" >
+        <!-- muted음소거 autoplay 자동재생(음소거없이 자동재생안됨) -->
+        <!-- <video id="videoTag" controls autoplay muted>
+            <source src="https://s3550.smartucc.kr/encodeFile/3550/2022/08/17/1b8d1f971e5692dcfd8b93685662070b_W.mp4" type="video/mp4">
+        </video> -->
+        <video controls autoplay muted
+         src="https://s3550.smartucc.kr/encodeFile/3550/2022/08/17/1b8d1f971e5692dcfd8b93685662070b_W.mp4">
+        </video>
+    </div>
+</div>
+
+   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+   <script>
+    AOS.init();
+  </script>
+</body>
+</html>
